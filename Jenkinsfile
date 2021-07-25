@@ -8,7 +8,7 @@ node {
 
 
 	stage('Build image') {
-		app = docker.build("${dockerhubaccountid}/${application}:${BUILD_NUMBER}")
+		app = docker-compose up -d ("${dockerhubaccountid}/${application}:${BUILD_NUMBER}")
 	}
 
 
