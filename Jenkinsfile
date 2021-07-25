@@ -1,6 +1,6 @@
 node {
 
-	def application = "wordpress-image-raj"
+	def application = "wordpress"
 	def dockerhubaccountid = "rajaradhyahs"
 	stage('Clone repository') {
 		checkout scm
